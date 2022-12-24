@@ -15,7 +15,7 @@ class PostsController extends Controller
      */
     public function index(Request $request)
     {
-        Log::debug('Received request to index posts', ['request' => $request->all()]);
+        Log::debug('ALL_DATA_POSTS_REQUESTS', ['request' => $request->all()]);
 
         $posts = Post::all();
 
