@@ -47,7 +47,7 @@
 
 <div class="bgimg">
     <div class="topleft">
-        <p>Salary App</p>
+        <p>Salary Appu</p>
     </div>
     <div class="middle">
         <h1>COMING SOON</h1>
@@ -55,7 +55,7 @@
         <p id="demo" style="font-size:30px"></p>
     </div>
     <div class="bottomleft">
-        <p>From : Shashi Kumar Sah</p>
+        <p>From : Shashi Kumar Sahu</p>
     </div>
 </div>
 
