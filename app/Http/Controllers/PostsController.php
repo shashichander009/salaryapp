@@ -11,11 +11,12 @@ class PostsController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function index(Request $request)
     {
-        Log::debug('ALL_DATA_POSTS_REQUESTS', ['request' => $request->all()]);
+        Log::debug('ALL_DATA_POSTS_REQUESTS', ['request' => json_encode($request)]);
+        Log::info('ALL_DATA_POSTS_REQUESTS_ALL', ['request' => $request->all()]);
+
 
         $posts = Post::all();
 
